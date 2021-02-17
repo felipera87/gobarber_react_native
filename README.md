@@ -28,5 +28,5 @@ $ yarn start
 
 ```bash
 # Terminal 2
-$ npx react-native run-android
+$ yarn android
 ```
