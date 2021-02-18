@@ -3,6 +3,7 @@ import { TextInputProps } from 'react-native';
 
 import { Container, TextInput, Icon } from './styles';
 
+// this Omit is just to avoid lint errors due to type differences of react and styled components
 interface InputProps
   extends Omit<
     TextInputProps,
