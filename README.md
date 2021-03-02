@@ -30,3 +30,5 @@ $ yarn start
 # Terminal 2
 $ yarn android
 ```
+
+Keep in mind that the address for localhost may vary depending on your environment. In my case I had to allow traffic on my firewall on port 3333 and use my local IP address, since the emulator use a VM and is another host.
